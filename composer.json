@@ -1,12 +1,9 @@
 {
-    "name": "vendor/php-authentication-system",
-    "description": "Description of project PhpAuthenticationSystem.",
-    "authors": [
-        {
-            "name": "klemen",
-            "email": "your@email.here"
-        }
-    ],
+    "autoload":{
+      "psr-4":{
+        "app_namespace\\": "app/app_namespace"  
+      }  
+    },
     "require": {
         "slim/slim": "~2.0",
         "slim/views": "0.1.*",

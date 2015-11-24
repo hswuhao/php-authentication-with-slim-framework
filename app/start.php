@@ -2,6 +2,7 @@
 
 use Slim\Slim;
 use Noodlehaus\Config;
+use app_namespace\User\User;
 session_cache_limiter(false);
 session_start();
 
@@ -19,4 +20,8 @@ $app->configureMode($app->config('mode'), function() use ($app){
 
 require INC_ROOT."/app/database.php";
 
+$app->container->set('user', function (){
+    return new User();
+});
+var_dump($app->user);
 $app->run();
