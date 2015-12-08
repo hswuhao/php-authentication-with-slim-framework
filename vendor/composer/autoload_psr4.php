@@ -6,8 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'app_namespace\\' => array($baseDir . '/app/app_namespace'),
+    'sitename\\' => array($baseDir . '/app/sitename'),
     'Violin\\' => array($vendorDir . '/alexgarrett/violin/src'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
     'Slim\\Views\\' => array($vendorDir . '/slim/views'),

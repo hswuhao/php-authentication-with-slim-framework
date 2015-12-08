@@ -1,7 +1,7 @@
 {
     "autoload":{
       "psr-4":{
-        "app_namespace\\": "app/app_namespace"  
+        "sitename\\": "app/sitename"  
       }  
     },
     "require": {
