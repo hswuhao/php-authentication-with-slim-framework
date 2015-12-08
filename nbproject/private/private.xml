@@ -6,7 +6,7 @@
             <file>file:/home/klemen/NetBeansProjects/PhpAuthenticationSystem/composer.json</file>
             <file>file:/home/klemen/NetBeansProjects/PhpAuthenticationSystem/app/config/development.php</file>
             <file>file:/home/klemen/NetBeansProjects/PhpAuthenticationSystem/app/start.php</file>
-            <file>file:/home/klemen/NetBeansProjects/PhpAuthenticationSystem/app/views/home.php</file>
+            <file>file:/home/klemen/NetBeansProjects/PhpAuthenticationSystem/app/views/home.twig</file>
             <file>file:/home/klemen/NetBeansProjects/PhpAuthenticationSystem/public/index.php</file>
         </group>
     </open-files>

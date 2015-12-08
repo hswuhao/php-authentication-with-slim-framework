@@ -3,9 +3,11 @@
         <title>
             Website | {% block title %} {% endblock %}
         </title>
+    </head>
+
     <body>
         {% include 'templates/partials/navigation.twig'%}
+        {% include 'templates/partials/messages.twig'%}
         {% block content %} {% endblock %}   
     </body>
-    </head>
 </html>
